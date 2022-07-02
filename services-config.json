@@ -1,0 +1,6 @@
+{
+  "licensingServiceBaseUrl": "http://52.170.99.217:8222",
+  "enableEntitlementLicensing": true,
+  "clientConnectTimeoutSec": 5,
+  "clientHandshakeTimeoutSec": 10
+}
