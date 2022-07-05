@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
@@ -6,20 +7,34 @@ using UnityEngine.TestTools;
 
 public class PlayerTests
 {
-    // A Test behaves as an ordinary method
-    [Test]
-    public void PlayerTestsSimplePasses()
+  
+  
+    [UnityTest]
+    [Category("Fast")]
+    public IEnumerator Fast_PlayModeTest()
     {
-        // Use the Assert class to test conditions
+        Console.WriteLine("Hello world, from fast test!");
+        var a = 2;
+        var b = 2;
+        var c = a + b;
+
+
+        yield return null;
+        Assert.AreEqual(expected: 4, actual: c);
+        
     }
 
-    // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-    // `yield return null;` to skip a frame.
     [UnityTest]
-    public IEnumerator PlayerTestsWithEnumeratorPasses()
+    [Category("Slow")]
+    public IEnumerator Slow_PlayModeTest()
     {
-        // Use the Assert class to test conditions.
-        // Use yield to skip a frame.
+        Console.WriteLine("Hello world, from slow test!");
+        var a = 2;
+        var b = 2;
+        var c = a + b;
+
         yield return null;
+        Assert.AreEqual(expected: 4, actual: c);
+        
     }
 }
