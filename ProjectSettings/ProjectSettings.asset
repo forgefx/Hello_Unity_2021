@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 2022.7.13.850
+  bundleVersion: 2022.7.13.911
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -175,10 +175,10 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 12022.7.13.850
+  iOSTargetOSVersionString: 12022.7.13.911
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
-  tvOSTargetOSVersionString: 12022.7.13.850
+  tvOSTargetOSVersionString: 12022.7.13.911
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIRequiresFullScreen: 1
@@ -407,7 +407,7 @@ PlayerSettings:
   switchPresenceGroupId: 
   switchLogoHandling: 0
   switchReleaseVersion: 0
-  switchDisplayVersion: 2022.7.13.850.0
+  switchDisplayVersion: 2022.7.13.911.0
   switchStartupUserAccount: 0
   switchTouchScreenUsage: 0
   switchSupportedLanguagesMask: 0
@@ -471,8 +471,8 @@ PlayerSettings:
   ps4ParentalLevel: 11
   ps4ContentID: ED1633-NPXX51362_00-0000000000000000
   ps4Category: 0
-  ps4MasterVersion: 02022.7.13.8500
-  ps4AppVersion: 02022.7.13.8500
+  ps4MasterVersion: 02022.7.13.9110
+  ps4AppVersion: 02022.7.13.9110
   ps4AppType: 0
   ps4ParamSfxPath: 
   ps4VideoOutPixelFormat: 0
@@ -581,7 +581,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: 2DBuiltInRenderer
-  metroPackageVersion: 2022.7.13.850.0.0
+  metroPackageVersion: 2022.7.13.911.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -615,7 +615,7 @@ PlayerSettings:
   XboxOneGameOsOverridePath: 
   XboxOnePackagingOverridePath: 
   XboxOneAppManifestOverridePath: 
-  XboxOneVersion: 2022.7.13.850.0.0
+  XboxOneVersion: 2022.7.13.911.0.0
   XboxOnePackageEncryption: 0
   XboxOnePackageUpdateGranularity: 2
   XboxOneDescription: 
